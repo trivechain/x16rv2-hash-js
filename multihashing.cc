@@ -40,4 +40,4 @@ NAN_MODULE_INIT(init) {
     Nan::Set(target, Nan::New("x16rv2").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(x16rv2)).ToLocalChecked());
 }
 
-NODE_MODULE(nodex16rv2, init)
+NODE_MODULE(x16rv2hash, init)

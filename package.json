@@ -1,19 +1,35 @@
 {
-    "name": "node-x16rv2",
+    "name": "@trivechain/x16rv2-hash-js",
     "version": "1.0.0",
-    "main": "nodex16rv2",
-    "author": {
-        "name": "Traysi Hylian"
-    },
+    "main": "index.js",
+    "contributors": [
+        {
+            "name": "Traysi Hylian"
+        },
+        {
+            "name": "Tan Ji Sheng",
+            "email": "js@trive.academy"
+        }
+    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/traysi/x16rv2_hash.git"
+        "url": "https://github.com/trivechain/x16rv2-hash-js.git"
     },
     "dependencies": {
-        "bindings": "1.5.0",
+        "bindings": "^1.5.0",
         "nan": "2.14.0"
     },
     "keywords": [
-        "x16rv2"
-    ]
+        "x16rv2",
+        "trivechain",
+        "trvc",
+        "ravencoin",
+        "rvn"
+    ],
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^25.2.7"
+    }
 }
