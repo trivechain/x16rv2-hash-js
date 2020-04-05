@@ -1,35 +1,39 @@
 {
-    "name": "@trivechain/x16rv2-hash-js",
-    "version": "1.0.0",
-    "main": "index.js",
-    "contributors": [
-        {
-            "name": "Traysi Hylian"
-        },
-        {
-            "name": "Tan Ji Sheng",
-            "email": "js@trive.academy"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/trivechain/x16rv2-hash-js.git"
-    },
-    "dependencies": {
-        "bindings": "^1.5.0",
-        "nan": "2.14.0"
-    },
-    "keywords": [
-        "x16rv2",
-        "trivechain",
-        "trvc",
-        "ravencoin",
-        "rvn"
-    ],
-    "scripts": {
-        "test": "jest"
-    },
-    "devDependencies": {
-        "jest": "^25.2.7"
-    }
+  "name": "@trivechain/x16rv2-hash-js",
+  "version": "1.0.1",
+  "main": "index.js",
+  "contributors": [
+    "Traysi Hylian",
+    "Tan Ji Sheng <js@trive.academy>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trivechain/x16rv2-hash-js.git"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "2.14.0"
+  },
+  "keywords": [
+    "x16rv2",
+    "trivechain",
+    "trvc",
+    "ravencoin",
+    "rvn"
+  ],
+  "scripts": {
+    "test": "jest",
+    "install": "node-gyp rebuild"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "gypfile": true,
+  "description": "X16Rv2 Hash Algorithm implemented for Node JS",
+  "bugs": {
+    "url": "https://github.com/trivechain/x16rv2-hash-js/issues"
+  },
+  "homepage": "https://github.com/trivechain/x16rv2-hash-js#readme",
+  "author": "trivechain",
+  "license": "ISC"
 }
